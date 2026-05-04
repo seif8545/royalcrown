@@ -6,7 +6,7 @@ const nextConfig = {
     dangerouslyAllowSVG: true,
     contentDispositionType: "attachment",
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-    output: "export",
+    output: "export", // Enable static export for images
   },
 };
 
