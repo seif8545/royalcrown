@@ -55,9 +55,9 @@ export default function Home() {
         <div className="mx-auto grid max-w-6xl grid-cols-2 gap-px overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-200 via-violet-200 to-indigo-200 shadow-2xl shadow-indigo-900/20 ring-1 ring-white sm:grid-cols-4">
           {[
             { icon: Star, label: "Booking rating", value: `${SITE.bookingRating} / 10`, sub: `${SITE.bookingReviews} reviews` },
-            { icon: MapPin, label: "Distance", value: "3.3 km", sub: "to the Pyramids" },
-            { icon: Utensils, label: "Meals", value: "All Inclusive", sub: "BB · HB · FB available" },
-            { icon: Plane, label: "Airport", value: "30 km", sub: "from CAI" },
+            { icon: MapPin, label: "Distance", value: "5 minute walk", sub: "to the Grand Egyptian Museum" },
+            { icon: Utensils, label: "Meals", value: "Breakfast and Dinner Available", sub: "BB and HB options" },
+            { icon: Plane, label: "Airport", value: "30 mins", sub: "from CAI" },
           ].map(({ icon: Icon, label, value, sub }) => (
             <div key={label} className="flex flex-col items-center justify-center gap-1 bg-white p-5 text-center text-indigo-900">
               <Icon className="h-5 w-5 text-violet-500" />
@@ -87,9 +87,9 @@ export default function Home() {
               <span className="h-px flex-1 bg-indigo-500" />
             </div>
             <p className="mx-auto mt-6 max-w-2xl text-sm text-slate-600">
-              Eight room categories from cosy singles to spacious family
+              Numerous room categories from cosy singles to spacious family
               quadruples, all with air conditioning, ensuite bathroom, free
-              Wi-Fi, minibar and the full Royal Crown amenity set.
+              Wi-Fi, and the full Royal Crown amenity set.
             </p>
           </header>
 
