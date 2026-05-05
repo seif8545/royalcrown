@@ -12,6 +12,10 @@ export const metadata: Metadata = {
     description: SITE.tagline,
     images: ["/images/sphinx.jpg"],
   },
+  // Add this icons block right here:
+  icons: {
+    icon: "/images/favicon.png",
+  },
 };
 
 export default function RootLayout({
