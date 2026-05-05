@@ -44,10 +44,10 @@ export interface Room {
   slug: string;
   description: string;
   image: string;
-  /** Lowest nightly rate in EGP (as shown on Booking.com). */
+  /** Lowest nightly rate in USD (as shown on Booking.com). */
   pricePerNight: number;
   /** Currency for pricePerNight. */
-  currency: "EGP" | "USD";
+  currency:"USD";
   rating: 1 | 2 | 3 | 4 | 5;
   bookingUrl: string;
   longDescription?: string;
