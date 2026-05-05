@@ -97,7 +97,7 @@ export default function RoomsPage() {
                     <p className="text-sm text-slate-500">
                       From{" "}
                       <span className="text-2xl font-semibold text-indigo-900">
-                        {room.currency === "EGP" ? "EGP " : "$"}
+                        {room.currency === "USD" ? "USD " : "$"}
                         {new Intl.NumberFormat("en-US").format(room.pricePerNight)}
                       </span>{" "}
                       / night
