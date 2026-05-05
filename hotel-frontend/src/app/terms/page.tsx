@@ -37,7 +37,7 @@ export default function TermsPage() {
           <p>
             Bookings are processed through our partner HotelRunner. A valid
             credit card is required at booking. Rates are quoted and charged in USD. Taxes and fees may apply. Payment is processed at the time of booking or upon arrival.
-
+</p>
           <h2 className="font-serif text-3xl">3. Cancellation</h2>
           <p>
             Standard rates may be cancelled free of charge up to 72 hours
