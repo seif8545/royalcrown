@@ -23,7 +23,7 @@ export default function TermsPage() {
       <main className="bg-slate-50 py-16 text-indigo-900">
         <article className="prose prose-slate mx-auto max-w-3xl px-6">
           <p className="text-sm text-slate-500">
-            Last updated: 1 January {new Date().getFullYear()}
+            Last updated: 1 May {new Date().getFullYear()}
           </p>
 
           <h2 className="font-serif text-3xl">1. About these terms</h2>
@@ -36,21 +36,18 @@ export default function TermsPage() {
           <h2 className="font-serif text-3xl">2. Reservations &amp; payment</h2>
           <p>
             Bookings are processed through our partner HotelRunner. A valid
-            credit card is required at booking. Rates are quoted in USD and
-            charged in EGP at the prevailing rate.
-          </p>
+            credit card is required at booking. Rates are quoted and charged in USD. Taxes and fees may apply. Payment is processed at the time of booking or upon arrival.
 
           <h2 className="font-serif text-3xl">3. Cancellation</h2>
           <p>
-            Standard rates may be cancelled free of charge up to 48 hours
+            Standard rates may be cancelled free of charge up to 72 hours
             before arrival. Non-refundable rates are cancelled with no refund.
             Specific terms are confirmed at the time of booking.
           </p>
 
           <h2 className="font-serif text-3xl">4. Check-in &amp; check-out</h2>
           <p>
-            Check-in is from 14:00; check-out is by 12:00. Early check-in and
-            late check-out are subject to availability. Government-issued ID is
+            Check-in is available throughout the day. Check-out is by 12:00 PM. Government-issued ID or passportis
             required at check-in.
           </p>
 
