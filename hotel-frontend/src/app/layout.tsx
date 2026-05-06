@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+// @ts-ignore: side-effect CSS import without module declarations
 import "./globals.css";
 import { SITE } from "@/data";
 

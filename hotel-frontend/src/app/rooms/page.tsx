@@ -95,13 +95,12 @@ export default function RoomsPage() {
 
                   <div className="mt-8 flex flex-col items-start justify-between gap-4 border-t border-slate-100 pt-6 sm:flex-row sm:items-center">
                     <p className="text-sm text-slate-500">
-                      From{" "}
-                      <span className="text-2xl font-semibold text-indigo-900">
-                        {room.currency === "USD" ? "USD " : "$"}
-                        {new Intl.NumberFormat("en-US").format(room.pricePerNight)}
-                      </span>{" "}
-                      / night
-                    </p>
+  From{" "}
+  <span className="text-2xl font-semibold text-indigo-900">
+    ${new Intl.NumberFormat("en-US").format(room.pricePerNight)}
+  </span>{" "}
+  / night
+</p>
                     <div className="flex items-center gap-3">
                       <Link
                         href={`/rooms/${room.slug}`}

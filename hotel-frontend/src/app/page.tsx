@@ -26,9 +26,8 @@ import {
 
 const HOME_ROOMS = ["king-room", "deluxe-double-room", "superior-double-or-twin-room-with-city-view", "premium-quadruple-room"];
 
-function formatRoomPrice(price: number, currency: "EGP" | "USD"): string {
-  const n = new Intl.NumberFormat("en-US").format(price);
-  return currency === "EGP" ? `EGP ${n}` : `$${n}`;
+function formatRoomPrice(price: number): string {
+  return `$${new Intl.NumberFormat("en-US").format(price)}`;
 }
 
 function servicePriceLabel(s: Service): string {
@@ -142,7 +141,7 @@ export default function Home() {
                     <p className="text-sm text-slate-500">
                       From{" "}
                       <span className="text-lg font-semibold text-indigo-900">
-                        {formatRoomPrice(room.pricePerNight, room.currency)}
+                        {formatRoomPrice(room.pricePerNight)}
                       </span>{" "}
                       / night
                     </p>
