@@ -225,15 +225,15 @@ export const rooms: Room[] = [
     description:
       "A king-size double bed with a view of the pyramids in a quiet, modern 20 m² room with ensuite bathroom and full hotel amenities.",
     longDescription:
-      "Our most popular room for solo travellers who want space to spread out. The Royal King features a large double bed dressed in crisp linens, a bright ensuite bathroom, soundproofed windows and the full Royal Crown amenity set: Pyramids View, TV, safety deposit box and complimentary toiletries.",
+      "Our most popular room for solo/couple travellers who want space to spread out. The Royal King features a large double bed dressed in crisp linens, a bright ensuite bathroom, soundproofed windows and the full Royal Crown amenity set: Pyramids View, TV, safety deposit box and complimentary toiletries.",
     image: "/images/queen-bed.jpeg",
-    pricePerNight: 13,
+    pricePerNight: 25,
     currency: "USD",
     rating: 4,
     bookingUrl: BOOKING_URL,
     bedType: "1 king-size bed",
     size: "20 m²",
-    maxGuests: 1,
+    maxGuests: 2,
     amenities: HOTEL_BASE_AMENITIES,
   },
   {
