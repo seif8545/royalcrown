@@ -23,10 +23,10 @@ import {
   type Service,
 } from "@/data";
 
-const HOME_ROOMS = ["king-room", "deluxe-double-room", "superior-double-or-twin-room-with-city-view", "premium-quadruple-room"];
+const HOME_ROOMS = ["royal-king-room", "deluxe-double-room-with-pyramids-view", "royal-twin-room-with-2-queen-beds", "premium-quadruple-room"];
 
 function formatRoomPrice(price: number): string {
-  return `$${new Intl.NumberFormat("en-US").format(price)}`;
+  return `$${new Intl.NumberFormat("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(price)}`;
 }
 
 function servicePriceLabel(s: Service): string {

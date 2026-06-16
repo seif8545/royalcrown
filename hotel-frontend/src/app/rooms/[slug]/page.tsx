@@ -156,7 +156,7 @@ export default function RoomDetailPage({ params }: RoomPageProps) {
                   From
                 </p>
                 <p className="mt-1 font-serif text-4xl">
-  ${new Intl.NumberFormat("en-US").format(room.pricePerNight)}
+  ${new Intl.NumberFormat("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(room.pricePerNight)}
   <span className="text-base text-slate-500"> / night</span>
 </p>
                 <div className="mt-2 flex items-center gap-0.5 text-indigo-500">
@@ -229,7 +229,7 @@ export default function RoomDetailPage({ params }: RoomPageProps) {
                 <div className="flex flex-1 flex-col justify-center p-4">
                   <h3 className="font-serif text-lg">{r.title}</h3>
                   <p className="mt-1 text-sm text-slate-500">
-  From ${new Intl.NumberFormat("en-US").format(r.pricePerNight)} / night
+  From ${new Intl.NumberFormat("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(r.pricePerNight)} / night
 </p>
                 </div>
               </Link>

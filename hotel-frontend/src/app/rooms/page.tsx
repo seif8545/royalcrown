@@ -97,7 +97,7 @@ export default function RoomsPage() {
                     <p className="text-sm text-slate-500">
   From{" "}
   <span className="text-2xl font-semibold text-indigo-900">
-    ${new Intl.NumberFormat("en-US").format(room.pricePerNight)}
+    ${new Intl.NumberFormat("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(room.pricePerNight)}
   </span>{" "}
   / night
 </p>
